@@ -1,0 +1,120 @@
+INSERT ALL
+
+INTO EMPLOYEE_DETAILS VALUES (40000001,'Staff',5001,'Mr.','Rohit','Software Engineer','DIT','Development',
+TO_DATE('01-01-2026','DD-MM-YYYY'),TO_DATE('05-01-2026','DD-MM-YYYY'),
+'B.Tech','Computer Science','Male','O+','9876543211','Hyderabad','Hyderabad',
+TO_DATE('01-01-2000','DD-MM-YYYY'))
+
+INTO EMPLOYEE_DETAILS VALUES (40000002,'Staff',5002,'Ms.','Sneha','Software Engineer','DIT','Development',
+TO_DATE('02-01-2026','DD-MM-YYYY'),TO_DATE('06-01-2026','DD-MM-YYYY'),
+'B.Tech','Computer Science','Female','A+','9876543212','Warangal','Warangal',
+TO_DATE('02-02-2001','DD-MM-YYYY'))
+
+INTO EMPLOYEE_DETAILS VALUES (40000003,'Contract',5003,'Mr.','Arjun','Intern','DIT','SDD',
+TO_DATE('03-01-2026','DD-MM-YYYY'),TO_DATE('07-01-2026','DD-MM-YYYY'),
+'B.Tech','Computer Science','Male','B+','9876543213','Karimnagar','Karimnagar',
+TO_DATE('03-03-2002','DD-MM-YYYY'))
+
+INTO EMPLOYEE_DETAILS VALUES (40000004,'Staff',5004,'Ms.','Divya','Intern','DIT','Development',
+TO_DATE('04-01-2026','DD-MM-YYYY'),TO_DATE('08-01-2026','DD-MM-YYYY'),
+'B.Tech','Statistics','Female','O+','9876543214','Hyderabad','Nizamabad',
+TO_DATE('04-04-2001','DD-MM-YYYY'))
+
+INTO EMPLOYEE_DETAILS VALUES (40000005,'Contract',5005,'Mr.','Kiran','Software Engineer','DOI','CND',
+TO_DATE('05-01-2026','DD-MM-YYYY'),TO_DATE('09-01-2026','DD-MM-YYYY'),
+'M.Sc','Statistics','Male','AB+','9876543215','Warangal','Warangal',
+TO_DATE('05-05-1999','DD-MM-YYYY'))
+
+INTO EMPLOYEE_DETAILS VALUES (40000006,'Staff',5006,'Ms.','Pooja','Director','DOI','CND',
+TO_DATE('06-01-2026','DD-MM-YYYY'),TO_DATE('10-01-2026','DD-MM-YYYY'),
+'M.Tech','Computer Science','Female','A+','9876543216','Hyderabad','Hyderabad',
+TO_DATE('06-06-1995','DD-MM-YYYY'))
+
+INTO EMPLOYEE_DETAILS VALUES (40000007,'Contract',5007,'Mr.','Nikhil','Intern','DOVI','Networking',
+TO_DATE('07-01-2026','DD-MM-YYYY'),TO_DATE('11-01-2026','DD-MM-YYYY'),
+'B.Tech','Computer Science','Male','O+','9876543217','Adilabad','Adilabad',
+TO_DATE('07-07-2002','DD-MM-YYYY'))
+
+INTO EMPLOYEE_DETAILS VALUES (40000008,'Staff',5008,'Ms.','Harika','Software Engineer','DIT','Development',
+TO_DATE('08-01-2026','DD-MM-YYYY'),TO_DATE('12-01-2026','DD-MM-YYYY'),
+'B.Tech','Statistics','Female','B+','9876543218','Khammam','Khammam',
+TO_DATE('08-08-2000','DD-MM-YYYY'))
+
+INTO EMPLOYEE_DETAILS VALUES (40000009,'Contract',5009,'Mr.','Vamsi','Intern','DOVI','Networking',
+TO_DATE('09-01-2026','DD-MM-YYYY'),TO_DATE('13-01-2026','DD-MM-YYYY'),
+'B.Tech','Computer Science','Male','A+','9876543219','Nizamabad','Nizamabad',
+TO_DATE('09-09-2001','DD-MM-YYYY'))
+
+INTO EMPLOYEE_DETAILS VALUES (40000010,'Staff',5010,'Ms.','Meghana','Software Engineer','DOI','CND',
+TO_DATE('10-01-2026','DD-MM-YYYY'),TO_DATE('14-01-2026','DD-MM-YYYY'),
+'B.Tech','Computer Science','Female','O+','9876543220','Hyderabad','Hyderabad',
+TO_DATE('10-10-2000','DD-MM-YYYY'))
+
+INTO EMPLOYEE_DETAILS VALUES (40000011,'Contract',5011,'Mr.','Surya','Intern','DIT','SDD',
+TO_DATE('11-01-2026','DD-MM-YYYY'),TO_DATE('15-01-2026','DD-MM-YYYY'),
+'B.Tech','Computer Science','Male','B+','9876543221','Warangal','Warangal',
+TO_DATE('11-11-2002','DD-MM-YYYY'))
+
+INTO EMPLOYEE_DETAILS VALUES (40000012,'Staff',5012,'Ms.','Lavanya','Software Engineer','DIT','Development',
+TO_DATE('12-01-2026','DD-MM-YYYY'),TO_DATE('16-01-2026','DD-MM-YYYY'),
+'M.Tech','Computer Science','Female','AB+','9876543222','Hyderabad','Hyderabad',
+TO_DATE('12-12-1998','DD-MM-YYYY'))
+
+INTO EMPLOYEE_DETAILS VALUES (40000013,'Contract',5013,'Mr.','Teja','Intern','DOI','CND',
+TO_DATE('13-01-2026','DD-MM-YYYY'),TO_DATE('17-01-2026','DD-MM-YYYY'),
+'B.Tech','Statistics','Male','O+','9876543223','Adilabad','Adilabad',
+TO_DATE('13-01-2003','DD-MM-YYYY'))
+
+INTO EMPLOYEE_DETAILS VALUES (40000014,'Staff',5014,'Ms.','Anusha','Software Engineer','DOVI','Networking',
+TO_DATE('14-01-2026','DD-MM-YYYY'),TO_DATE('18-01-2026','DD-MM-YYYY'),
+'B.Tech','Computer Science','Female','A+','9876543224','Khammam','Khammam',
+TO_DATE('14-02-2000','DD-MM-YYYY'))
+
+INTO EMPLOYEE_DETAILS VALUES (40000015,'Contract',5015,'Mr.','Ramesh','Intern','DIT','SDD',
+TO_DATE('15-01-2026','DD-MM-YYYY'),TO_DATE('19-01-2026','DD-MM-YYYY'),
+'B.Tech','Computer Science','Male','B+','9876543225','Nizamabad','Nizamabad',
+TO_DATE('15-03-2002','DD-MM-YYYY'))
+
+INTO EMPLOYEE_DETAILS VALUES (40000016,'Staff',5016,'Ms.','Keerthi','Director','DOI','CND',
+TO_DATE('16-01-2026','DD-MM-YYYY'),TO_DATE('20-01-2026','DD-MM-YYYY'),
+'PhD','Computer Science','Female','O+','9876543226','Hyderabad','Hyderabad',
+TO_DATE('16-04-1994','DD-MM-YYYY'))
+
+INTO EMPLOYEE_DETAILS VALUES (40000017,'Contract',5017,'Mr.','Ajay','Software Engineer','DIT','Development',
+TO_DATE('17-01-2026','DD-MM-YYYY'),TO_DATE('21-01-2026','DD-MM-YYYY'),
+'B.Tech','Computer Science','Male','A+','9876543227','Warangal','Warangal',
+TO_DATE('17-05-1999','DD-MM-YYYY'))
+
+INTO EMPLOYEE_DETAILS VALUES (40000018,'Staff',5018,'Ms.','Bhavya','Intern','DOVI','Networking',
+TO_DATE('18-01-2026','DD-MM-YYYY'),TO_DATE('22-01-2026','DD-MM-YYYY'),
+'B.Tech','Computer Science','Female','AB+','9876543228','Adilabad','Adilabad',
+TO_DATE('18-06-2001','DD-MM-YYYY'))
+
+INTO EMPLOYEE_DETAILS VALUES (40000019,'Contract',5019,'Mr.','Charan','Intern','DIT','Development',
+TO_DATE('19-01-2026','DD-MM-YYYY'),TO_DATE('23-01-2026','DD-MM-YYYY'),
+'B.Tech','Statistics','Male','O+','9876543229','Khammam','Khammam',
+TO_DATE('19-07-2002','DD-MM-YYYY'))
+
+INTO EMPLOYEE_DETAILS VALUES (40000020,'Staff',5020,'Ms.','Deepika','Software Engineer','DOI','CND',
+TO_DATE('20-01-2026','DD-MM-YYYY'),TO_DATE('24-01-2026','DD-MM-YYYY'),
+'M.Tech','Computer Science','Female','B+','9876543230','Hyderabad','Hyderabad',
+TO_DATE('20-08-1997','DD-MM-YYYY'))
+
+INTO EMPLOYEE_DETAILS VALUES (40000021,'Contract',5021,'Mr.','Eshwar','Intern','DIT','SDD',
+TO_DATE('21-01-2026','DD-MM-YYYY'),TO_DATE('25-01-2026','DD-MM-YYYY'),
+'B.Tech','Computer Science','Male','A+','9876543231','Warangal','Warangal',
+TO_DATE('21-09-2002','DD-MM-YYYY'))
+
+INTO EMPLOYEE_DETAILS VALUES (40000022,'Staff',5022,'Ms.','Fathima','Software Engineer','DOVI','Networking',
+TO_DATE('22-01-2026','DD-MM-YYYY'),TO_DATE('26-01-2026','DD-MM-YYYY'),
+'B.Tech','Computer Science','Female','O+','9876543232','Nizamabad','Nizamabad',
+TO_DATE('22-10-2000','DD-MM-YYYY'))
+
+INTO EMPLOYEE_DETAILS VALUES (40000023,'Contract',5023,'Mr.','Girish','Intern','DIT','Development',
+TO_DATE('23-01-2026','DD-MM-YYYY'),TO_DATE('27-01-2026','DD-MM-YYYY'),
+'B.Tech','Statistics','Male','AB+','9876543233','Adilabad','Adilabad',
+TO_DATE('23-11-2001','DD-MM-YYYY'))
+
+SELECT * FROM dual;
+
+COMMIT;
