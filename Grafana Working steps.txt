@@ -1,0 +1,59 @@
+Start Spring Boot application and Verify API endpoint is accessible.
+
+URL- http://localhost:8080/api/employees
+
+Confirm JSON response using browser.
+
+2.  Create Service Account in Grafana
+
+Open Grafana. Navigate to: Administration → Users and Access → Service Accounts Click Create Service Account. Provide service account name. Click Generate Token.
+
+Copy the generated Secret Token. This token will be used for Authorization.
+
+3. Install JSON Data Source Plugin
+
+Go to Connections → Plugins. Search for: marcusolsson-json-datasource. Install the plugin. This plugin allows Grafana to fetch data from REST APIs.
+
+4. Create New Data Source
+
+Go to Connections → Data Sources. Click Add New Data Source. Select: marcusolsson-json-datasource.
+
+5.Configure Data Source
+
+Base URL: http://localhost:8080/api/employees Add Authorization Header . Scroll to HTTP Headers section.
+
+Add a new header:
+
+Header Name: Authorization ,Value: Bearer <Secret_Token>
+
+Important: There must be a space between Bearer and the token.
+
+Format should be: Authorization: Bearer <Secret_Token>
+
+Save and Test : Click Save & Test.
+
+If successful, message will display: “Data source is working”
+
+This confirms: API connection successful
+
+Token authentication valid , Secure backend communication established
+
+6.Create New Dashboard
+
+Go to Dashboards → New Dashboard. Click Add Visualization.
+
+Select the configured JSON Data Source. Select required fields from JSON response. The format for the field - $.[*].field name
+
+Choose desired visualization type:
+
+Bar chart, Pie chart, Table, Stat panel
+
+7.Create Required Visualizations
+
+Create panels for: Division-wise employee count, Qualification distribution, Discipline analysis, Gender statistics, Blood group distribution
+
+Combine and Save Dashboard
+
+Arrange all panels properly. Click Save Dashboard. Provide dashboard name.
+
+Save successfully.
